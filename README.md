@@ -38,9 +38,9 @@
 В результате лучшую производительность показала модель [CatBoost](https://catboost.ai/).  
 Но для продакшена была выбрана модель [NGBoost](https://stanfordmlgroup.github.io/projects/ngboost/), так как она позволяет предсказывать доверительные интервалы.  
 
-Для обучения модели был написан [скрипт](/scripts/train_model.py).
+Для обучения модели был написан [скрипт train_model.py](/scripts/train_model.py).
 
-Для тестового инференса был написан [скрипт](/scripts/predict.py).  
+Для тестового инференса был написан [скрипт predict.py](/scripts/predict.py).  
 
 Пример предсказания:
 ```
