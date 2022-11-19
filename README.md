@@ -40,8 +40,21 @@
 
 Для обучения модели был написан [скрипт](/scripts/train_model.py).
 
+Для тестового инференса был написан [скрипт](/scripts/predict.py).  
 
-## Выполнение предсказания на неполных данных
+Пример предсказания:
+```
+ - Start predicting
+ - Reading the model
+ - Sample data: {'brand_name': 'lenovo', 'proc_freq': 1.2, 'proc_brand': 'amd', 'proc_name': 'amd', 'proc_count': 2.0, 'videocard': 'radeon', 'videocard_memory': 8.0, 'screen': 11.0, 'ssd_volume': 0, 'ram': 4, 'hdmi': True, 'material': 'пластик', 'battery_life': 8.0}
+ - Sample dat price: 29999.000000000007
+ - Evaluating model ...
+ - Predicted price: 29604.84
+ - 95% confidence interval: 21897.62 - 40024.61
+
+```
+
+
 
 ## Реализация REST API
 
