@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 pandas = "*"
 pyarrow = "*"
+loguru = "*"
+sklearn = "*"
+ngboost = "*"
 
 [dev-packages]
 
