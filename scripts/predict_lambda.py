@@ -1,7 +1,8 @@
 import requests
 from loguru import logger
+import os
 
-API_KEY = 'YOUR_API_KEY'
+API_KEY = os.environ.get("NOTEBOOK_LAMBDA_API_KEY")
 API_URL = 'https://njs0kuvzkj.execute-api.us-west-1.amazonaws.com/prod/predict-price'
 
 sample_data = {'brand_name': 'lenovo',
