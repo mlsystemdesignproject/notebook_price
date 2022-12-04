@@ -2,3 +2,4 @@
 .idea
 catboost_info
 logs
+.env
